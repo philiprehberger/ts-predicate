@@ -1,6 +1,6 @@
 # @philiprehberger/ts-predicate
 
-[![CI](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-predicate/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-predicate/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-predicate.svg)](https://www.npmjs.com/package/@philiprehberger/ts-predicate)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-predicate)](LICENSE)
 
@@ -43,6 +43,15 @@ const isSpecial = or(
 | `or(...predicates)` | Any must pass |
 | `not(predicate)` | Invert predicate |
 | `where(shape)` | Object shape predicate |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
