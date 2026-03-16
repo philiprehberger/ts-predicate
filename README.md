@@ -1,21 +1,21 @@
-# @philiprehberger/predicate-ts
+# @philiprehberger/ts-predicate
 
-[![CI](https://github.com/philiprehberger/predicate-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/predicate-ts/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/predicate-ts.svg)](https://www.npmjs.com/package/@philiprehberger/predicate-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/predicate-ts)](LICENSE)
+[![CI](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-predicate.svg)](https://www.npmjs.com/package/@philiprehberger/ts-predicate)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-predicate)](LICENSE)
 
 Composable predicate builders for filtering and validation.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/predicate-ts
+npm install @philiprehberger/ts-predicate
 ```
 
 ## Usage
 
 ```ts
-import { is, where, and, or, not } from '@philiprehberger/predicate-ts';
+import { is, where, and, or, not } from '@philiprehberger/ts-predicate';
 
 users.filter(where({
   age: is.gte(18),
