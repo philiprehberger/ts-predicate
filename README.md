@@ -1,6 +1,6 @@
 # @philiprehberger/predicate-ts
 
-[![CI](https://github.com/philiprehberger/ts-predicate/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-predicate/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/predicate-ts.svg)](https://www.npmjs.com/package/@philiprehberger/predicate-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-predicate)](LICENSE)
 
