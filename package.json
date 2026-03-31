@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/predicate-ts",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Composable predicate builders for filtering and validation",
   "type": "module",
   "main": "./dist/index.cjs",

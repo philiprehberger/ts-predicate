@@ -1,9 +1,8 @@
 # @philiprehberger/predicate-ts
 
-[![CI](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-predicate/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/predicate-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/predicate-ts/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/predicate-ts.svg)](https://www.npmjs.com/package/@philiprehberger/predicate-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-predicate)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/predicate-ts)](https://github.com/philiprehberger/predicate-ts/commits/main)
 
 Composable predicate builders for filtering and validation
 
@@ -45,7 +44,6 @@ const isSpecial = or(
 | `not(predicate)` | Invert predicate |
 | `where(shape)` | Object shape predicate |
 
-
 ## Development
 
 ```bash
@@ -54,6 +52,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/predicate-ts)
+
+🐛 [Report issues](https://github.com/philiprehberger/predicate-ts/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/predicate-ts/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
